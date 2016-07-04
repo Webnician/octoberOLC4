@@ -1,0 +1,26 @@
+description = "the standard layout"
+==
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Big Test</title>
+    <link href="{{-['assets/css/theme.css']|theme-}}"-rel="stylesheet">
+    <header class="container">
+        <h2>{{ page.title }} is the header</h2>
+    </header>
+</head>
+<body>
+<section>
+<div class="container">
+    {% page %}
+</div>
+</section>
+<footer class="container">
+    <p>EOF (This is the page footer) </p>
+</footer>
+<script src="{{-['assets/javascript/jquery.js']|theme-}}"></script>
+{% framework %}
+
+</body>
+</html>
