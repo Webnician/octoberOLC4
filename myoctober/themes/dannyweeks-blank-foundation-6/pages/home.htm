@@ -1,0 +1,39 @@
+title = "Online Learning Consortium"
+url = "/"
+layout = "default"
+is_hidden = 0
+==
+<?
+function returnStuff(){
+$val =  post('value1');
+$talk = " HELLO " ;
+echo $val;
+$this['answer'] = 5;
+break;
+}
+function onStart()
+{
+
+    $this->page["myVar"] = "Hello World!";
+}
+
+?>
+==
+<div class="small-12 columns text-center">
+    <img src="{{ 'assets/images/theme-preview.png'|theme }}">
+</div>
+<form class="form-inline" data-request="returnStuff" data-request-update="test: '#result'">
+    <input type="text" name="value1" class="form-control" style="width: 100px;">
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form >
+<h3>Result <small>the test partial</small></h3>
+<div id="result">
+    {%partial "test" %}
+</div>
+<div id="links">
+    {% partial "links" %}
+
+
+</div>
+

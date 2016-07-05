@@ -1,0 +1,10 @@
+{% if answer %}
+<span class="lead">
+    the result is <span class="label label-success">{{ answer }}</span>
+</span>
+{% else %}
+<span class="text-muted">
+    Click the <em>Go</em> button to find the answer
+</span>
+{% endif %}
+{{ this.page.myVar }}
