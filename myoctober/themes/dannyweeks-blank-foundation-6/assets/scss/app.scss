@@ -42,6 +42,21 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+
+$olc-orange: #ffa800;
+$olc-light-turq: #52c2ea;
+$olc-med-turq: #27b3e5;
+$olc-dark-turq: #048aa2;
+$olc-light-green: #a9d135;
+$olc-dark-green: #94c502;
+$olc-light-purp: #af68be;
+$olc-dark-purp: #7a0493;
+$ielol-dark: #00448d;
+$ielol-light: #3269a3;
+$white: #fff;
+$black: #000;
+
+
 .btn-primary{
   background-color: #00b3ee;
   padding: 15px;
@@ -51,4 +66,53 @@ border: 2px solid black;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   font-size: 1.2em;
+  margin: 5px;
+}
+.btn-color{
+  padding: 15px;
+  border: 2px solid black;
+  color: white;
+  text-shadow: 2px 2px #2a2a2a;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  font-size: 1.2em;
+  margin: 5px;
+  margin-left: 15%;
+}
+.header img{
+  margin-top: 5%;
+}
+.headerText {
+  margin-top: 10%;
+  font-weight: bold;
+  font-size: 180%;
+ font-family: "Comic Sans MS", cursive, sans-serif;
+}
+@media (min-width: 1000px)  {
+  .row{
+    max-width: 95%;
+  }
+}
+.form-sidebar{
+  display: block;
+  margin-left: 70%;
+  margin-right: 3%;
+}
+.leftside {
+  display: block;
+
+  width: 45%;
+  float: left;
+}
+.rightside{
+  display: block;
+  width: 45%;
+
+  float: right;
+}
+.olc-orange{
+  background-color: $olc-orange;
+}
+.olc-med-turq{
+  background-color: $olc-med-turq;
 }

@@ -1,0 +1,71 @@
+title = "Online Learning Consortium"
+url = "/style"
+layout = "default"
+is_hidden = 0
+==
+<?
+function returnStuff(){
+$val =  post('value1');
+$talk = " HELLO " ;
+echo $val;
+$this['answer'] = 5;
+break;
+}
+function onStart()
+{
+
+    $this->page["myVar"] = "Hello World!";
+}
+
+?>
+==
+<script>
+    var clipboard = new Clipboard('.btn-color');
+</script>
+<div class="small-12 columns text-center header">
+    <img src="{{ 'assets/images/logo3.png'|theme }}">
+    <br />
+    <span class="headerText">STYLE</span>
+</div>
+<form class="form-inline" data-request="returnStuff" data-request-update="test: '#result'">
+    <input type="text" name="value1" class="form-control" style="width: 100px;">
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form >
+<input id="foo" value="https://github.com/zenorocha/clipboard.js.git">
+
+<button class="btn-primary" data-clipboard-target="#foo">
+   Copy to Clipboard
+</button>
+<button class="btn-primary" data-clipboard-text="Just because you can doesn't mean you should — clipboard.js">
+    Copy to clipboard
+</button>
+<div class="form-sidebar">
+    <h3 style="text-align: center">Click a Color to Copy</h3>
+    <div class="leftside">
+        <button class="btn-color olc-med-turq" data-clipboard-text="#27b3e5">#27b3e5</button>
+        <button class="btn-color olc-orange" data-clipboard-text="#ffa800">#ffa800</button>
+        <button class="btn-color olc-med-turq" data-clipboard-text="#27b3e5">#27b3e5</button>
+        <button class="btn-color olc-orange" data-clipboard-text="#ffa800">#ffa800</button>
+        <button class="btn-color olc-med-turq" data-clipboard-text="#27b3e5">#27b3e5</button>
+        <button class="btn-color olc-orange" data-clipboard-text="#ffa800">#ffa800</button>
+    </div>
+    <div class="rightside">
+        <button class="btn-color olc-med-turq" data-clipboard-text="#27b3e5">#27b3e5</button>
+        <button class="btn-color olc-orange" data-clipboard-text="#ffa800">#ffa800</button>
+        <button class="btn-color olc-med-turq" data-clipboard-text="#27b3e5">#27b3e5</button>
+        <button class="btn-color olc-orange" data-clipboard-text="#ffa800">#ffa800</button>
+        <button class="btn-color olc-med-turq" data-clipboard-text="#27b3e5">#27b3e5</button>
+        <button class="btn-color olc-orange" data-clipboard-text="#ffa800">#ffa800</button>
+    </div>
+</div>
+<h3>Result <small>the test partial</small></h3>
+<div id="result">
+    {%partial "test" %}
+</div>
+<div id="links">
+    {% partial "links" %}
+
+
+</div>
+

@@ -3456,4 +3456,50 @@ table.hover tr:nth-of-type(even):hover {
   text-shadow: 2px 2px #2a2a2a;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  margin: 5px; }
+
+.btn-color {
+  padding: 15px;
+  border: 2px solid black;
+  color: white;
+  text-shadow: 2px 2px #2a2a2a;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  font-size: 1.2em;
+  margin: 5px;
+  margin-left: 15%; }
+
+.header img {
+  margin-top: 5%; }
+
+.headerText {
+  margin-top: 10%;
+  font-weight: bold;
+  font-size: 180%;
+  font-family: "Comic Sans MS", cursive, sans-serif; }
+
+@media (min-width: 1000px) {
+  .row {
+    max-width: 95%; } }
+
+.form-sidebar {
+  display: block;
+  margin-left: 70%;
+  margin-right: 3%; }
+
+.leftside {
+  display: block;
+  width: 45%;
+  float: left; }
+
+.rightside {
+  display: block;
+  width: 45%;
+  float: right; }
+
+.olc-orange {
+  background-color: #ffa800; }
+
+.olc-med-turq {
+  background-color: #27b3e5; }
