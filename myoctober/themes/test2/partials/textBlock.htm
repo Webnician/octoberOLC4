@@ -1,0 +1,52 @@
+<h2 class="center">Get a Formatted Text Block</h2>
+<h3 class="center">Enter Text ..</h3>
+<h4 class="center">Then.. Select applicable options</h4>
+<h4 class="center">Then.. Click copy to clipboard to get a formatted text block</h4>
+<input class="hidden-inp" type="text" width="300" height="100" placeholder="Type Nothing Here ..." readonly id="getText" />
+<input type="text" width="300" height="100" onkeyup="getText()" id="inputText" />
+<div class="row"> <!--controls for the text block-->
+    <div class="large-2 small-6 columns">
+        <label class="center">Font</label>
+        <select onchange="getText()" id="textinp1">
+            <option value="'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif">Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif</option>
+        </select>
+    </div>
+    <div class="large-2 small-6 columns">
+        <label class="center">Font Size</label>
+        <input id="textinp2" onchange="getText()" type="number" max="40" min="2" value="12">
+
+    </div>
+    <div class="large-2 small-6 columns">
+        <label class="center">Font Style</label>
+        <select onchange="getText()" id="textinp3">
+            <option value="span">Regular</option>
+            <option value="b">Bold</option>
+            <option value="i">Italic</option>
+            <option value="em">Emphasis</option>
+        </select>
+    </div>
+    <div class="large-2 small-6 columns">
+        <label class="center">Font Color</label>
+        <select onchange="getText()" id="textinp4">
+            <option value="#000000">Black</option>
+            <option value="#ffffff">White</option>
+        </select>
+    </div>
+    <div class="large-2 small-6 columns">
+        <label class="center">Text Alignment</label>
+        <select onchange="getText()" id="textinp5">
+            <option value="left">Left</option>
+            <option value="center">Center</option>
+            <option value="right">Right</option>
+        </select>
+    </div>
+    <div class="large-2 small-6 columns">
+        <label class="center">Container Width</label>
+        <input type="text" onkeyup="getText()" id="textinp6" value="100%" >
+    </div>
+
+
+</div>
+<button class="btn-primary block" data-clipboard-target="#getText">
+    Copy to Clipboard
+</button>

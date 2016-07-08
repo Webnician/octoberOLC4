@@ -1,0 +1,90 @@
+title = "Online Learning Consortium"
+url = "/style"
+layout = "default3"
+is_hidden = 0
+==
+
+<?
+function returnStuff(){
+$val =  post('value1');
+$talk = " HELLO " ;
+echo $val;
+$this['answer'] = 5;
+break;
+}
+function onStart()
+{
+
+    $this->page["myVar"] = "Hello World!";
+}
+
+?>
+==
+<script>
+    var clipboard = new Clipboard('.btn-color');
+    var clipboard2 = new Clipboard('.hidden-inp');
+    var clipboard3 = new Clipboard('.btn-primary');
+</script>
+<div style="margin-top: 5%;" class="row">
+    <div class="large-12 small-12 columns">
+        <h1 style="font-family: Georgia, Times, 'Times New Roman', serif; font-size: 70px;" class="center">OLC STYLE</h1>
+    </div>
+</div>
+
+<div style="margin-top: 5%;" class="row">
+       {% partial "logos" %}
+</div>
+
+
+<div style="margin-top: 7%;" class="row">
+    <div class="large-12">
+
+        <div class="large-8 small-12 columns">
+
+
+            <h2 style="margin-top: 10%;" class="center">Get A Buy Product Button</h2>
+            <input class="hidden-inp" type="text" placeholder="Type Nothing Here ..." readonly id="getText2">
+            <h3 class="center">Enter a SKU</h3>
+
+            <input type="text" width="300" height="100" onkeyup="getBuy()" id="getTextButton" />
+            <h3 class="center">Then .. Enter Text for button</h3>
+            <input type="text" width="300" height="100" onkeyup="getBuy()" id="getTextButton2" />
+            <h4 class="center">Then.. Click copy to clipboard to get a buy button</h4>
+            <button class="btn-primary block" data-clipboard-target="#getText2">
+                Copy to Clipboard
+            </button>
+        </div>
+
+
+
+
+            <div style="padding-bottom: 5%;" class="large-4 small-12 columns grey">
+<h3 style="text-align: center">OLC Colors</h3>
+    <h4 style="text-align: center">Click a Color to Copy</h4>
+                <div class="">
+                    <button class="btn-color olc-med-turq" data-clipboard-text="#27b3e5">#27b3e5</button>
+                    <button class="btn-color olc-orange" data-clipboard-text="#ffa800">#ffa800</button>
+                     <button class="btn-color olc-light-turq" data-clipboard-text="#52c2ea">#52c2ea</button>
+                    <button class="btn-color olc-dark-turq" data-clipboard-text="#048aa2">#048aa2</button>
+                     <button class="btn-color olc-light-green" data-clipboard-text="#a9d135">#a9d135</button>
+                    <button class="btn-color olc-dark-green" data-clipboard-text="#94c502">#94c502</button>
+                </div>
+                <div class="">
+                    <button class="btn-color olc-light-purp" data-clipboard-text="#af68be">#af68be</button>
+                    <button class="btn-color olc-dark-purp" data-clipboard-text="#7a0493">#7a0493</button>
+                     <button class="btn-color ielol-dark" data-clipboard-text="#00448d">#00448d</button>
+                    <button class="btn-color ielol-light" data-clipboard-text="#3269a3">#3269a3</button>
+                    <button class="btn-color white" style="color:black;"  data-clipboard-text="#ffffff">#FFFFFF</button>
+                     <button class="btn-color black" data-clipboard-text="#000000">#000000</button>
+                </div>
+            </div>
+</div>
+</div>
+
+
+<div class="row" style="margin-top: 7%;">
+    {% partial "textBlock" %}
+</div>
+<div class="row" style="margin-top: 7%;">
+    {% partial "shortcodes" %}
+</div>

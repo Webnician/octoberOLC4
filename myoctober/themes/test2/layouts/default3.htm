@@ -1,0 +1,37 @@
+description = "Default layout"
+==
+
+
+<!doctype html>
+
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ this.page.title }}</title>
+
+
+        <link href="{{ ['assets/oct/dist/assets/css/app.css']|theme }}" rel="stylesheet">
+        <link href="{{ ['assets/styles/styler.css']|theme }}" rel="stylesheet">
+        <!--<script src="assets/oct/bower_components/foundation/js/vendor/modernizr.js"></script>-->
+        <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+        <script src="{{ ['assets/javascript/main.js']|theme }}"></script>
+    </head>
+    <body class="page-{{ this.page.id }}">
+    <div class="row">
+        <div class="large-12 columns">
+            {% page %}
+        </div>
+    </div>
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(document).foundation();
+        })
+    </script>
+    </body>
+</html>

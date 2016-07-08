@@ -1,0 +1,139 @@
+
+
+$olc-orange: #ffa800;
+$olc-light-turq: #52c2ea;
+$olc-med-turq: #27b3e5;
+$olc-dark-turq: #048aa2;
+$olc-light-green: #a9d135;
+$olc-dark-green: #94c502;
+$olc-light-purp: #af68be;
+$olc-dark-purp: #7a0493;
+$ielol-dark: #00448d;
+$ielol-light: #3269a3;
+$white: #fff;
+$black: #000;
+
+
+.btn-primary{
+  background-color: #00b3ee;
+  padding: 15px;
+  border: 2px solid black;
+  color: white;
+  text-shadow: 2px 2px #2a2a2a;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  font-size: 1.2em;
+  margin: 5px;
+}
+.btn-color{
+  padding: 15px;
+  border: 2px solid black;
+  color: white;
+  text-shadow: 2px 2px #2a2a2a;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  font-size: 1.2em;
+  margin: 5px;
+  margin-left: 15%;
+  width: 30%;
+}
+.btn-primary:hover{
+  border: 3px ridge yellow;
+  text-shadow: 1px 2px yellow;
+}
+.btn-primary:active{
+  border: 4px ridge $olc-light-green;
+  text-shadow: 1px 2px $olc-light-green;
+}
+.header img{
+  margin-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headerText {
+  margin-top: 10%;
+  font-weight: bold;
+  font-size: 180%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+}
+.header h2{
+text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+}
+@media (min-width: 1000px)  {
+  .row{
+    max-width: 95%;
+  }
+}
+.form-sidebar{
+  display: block;
+  margin-left: 70%;
+  margin-right: 3%;
+}
+.leftside {
+  display: block;
+
+  width: 45%;
+  float: left;
+}
+.rightside{
+  display: block;
+  width: 45%;
+
+  float: right;
+}
+.olc-orange{
+  background-color: $olc-orange;
+}
+.olc-med-turq{
+  background-color: $olc-med-turq;
+}
+.olc-light-turq{
+  background-color: $olc-light-turq;
+}
+.olc-dark-turq{
+  background-color: $olc-dark-turq;
+}
+.olc-light-green{
+  background-color: $olc-light-green;
+}
+.olc-dark-green{
+  background-color: $olc-dark-green;
+}
+.olc-light-purp{
+  background-color: $olc-light-purp;
+}
+.olc-dark-purp{
+  background-color: $olc-dark-purp;
+}
+.white{
+  background-color: $white;
+}
+.black{
+  background-color: $black;
+}
+.ielol-light{
+  background-color: $ielol-light;
+}
+.ielol-dark{
+  background-color: $ielol-dark;
+}
+.grey{
+  background-color: darkgray;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+.center{
+  text-align: center;
+}
+.block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.default-font{
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}

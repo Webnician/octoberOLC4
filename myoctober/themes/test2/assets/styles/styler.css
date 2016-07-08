@@ -1,0 +1,120 @@
+.btn-primary {
+  background-color: #00b3ee;
+  padding: 15px;
+  border: 2px solid black;
+  color: white;
+  text-shadow: 2px 2px #2a2a2a;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  font-size: 1.2em;
+  margin: 5px; }
+
+.btn-color {
+  padding: 15px;
+  border: 2px solid black;
+  color: white;
+  text-shadow: 2px 2px #2a2a2a;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  font-size: 1.2em;
+  margin: 5px;
+  margin-left: 15%;
+  width: 30%; }
+
+.btn-primary:hover {
+  border: 3px ridge yellow;
+  text-shadow: 1px 2px yellow; }
+
+.btn-primary:active {
+  border: 4px ridge #a9d135;
+  text-shadow: 1px 2px #a9d135; }
+
+.header img {
+  margin-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.headerText {
+  margin-top: 10%;
+  font-weight: bold;
+  font-size: 180%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center; }
+
+.header h2 {
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold; }
+
+@media (min-width: 1000px) {
+  .row {
+    max-width: 95%; } }
+.form-sidebar {
+  display: block;
+  margin-left: 70%;
+  margin-right: 3%; }
+
+.leftside {
+  display: block;
+  width: 45%;
+  float: left; }
+
+.rightside {
+  display: block;
+  width: 45%;
+  float: right; }
+
+.olc-orange {
+  background-color: #ffa800; }
+
+.olc-med-turq {
+  background-color: #27b3e5; }
+
+.olc-light-turq {
+  background-color: #52c2ea; }
+
+.olc-dark-turq {
+  background-color: #048aa2; }
+
+.olc-light-green {
+  background-color: #a9d135; }
+
+.olc-dark-green {
+  background-color: #94c502; }
+
+.olc-light-purp {
+  background-color: #af68be; }
+
+.olc-dark-purp {
+  background-color: #7a0493; }
+
+.white {
+  background-color: #fff; }
+
+.black {
+  background-color: #000; }
+
+.ielol-light {
+  background-color: #3269a3; }
+
+.ielol-dark {
+  background-color: #00448d; }
+
+.grey {
+  background-color: darkgray;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px; }
+
+.center {
+  text-align: center; }
+
+.block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.default-font {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+/*# sourceMappingURL=styler.css.map */
